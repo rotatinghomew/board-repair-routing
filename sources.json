@@ -72,6 +72,18 @@
         "value"
       ]
     },
+    "floor_review": {
+      "key": [
+        "board",
+        "at"
+      ],
+      "columns": [
+        "board",
+        "at",
+        "required",
+        "notes"
+      ]
+    },
     "loss": {
       "key": [
         "skill"
@@ -100,6 +112,12 @@
     [
       "stations",
       "job",
+      "boards",
+      "id"
+    ],
+    [
+      "floor_review",
+      "board",
       "boards",
       "id"
     ]
