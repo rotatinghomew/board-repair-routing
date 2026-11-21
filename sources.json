@@ -1,0 +1,107 @@
+{
+  "tables": {
+    "ontology": {
+      "key": [
+        "engine",
+        "label",
+        "condition",
+        "skill"
+      ],
+      "columns": [
+        "engine",
+        "label",
+        "condition",
+        "skill",
+        "ambig"
+      ]
+    },
+    "boards": {
+      "key": [
+        "id"
+      ],
+      "columns": [
+        "id",
+        "shift",
+        "arrived",
+        "due",
+        "condition",
+        "period",
+        "repair_minutes",
+        "initial_flag"
+      ]
+    },
+    "stations": {
+      "key": [
+        "shift",
+        "worker",
+        "start"
+      ],
+      "columns": [
+        "shift",
+        "worker",
+        "skill",
+        "start",
+        "end",
+        "job"
+      ]
+    },
+    "audits": {
+      "key": [
+        "board",
+        "revision"
+      ],
+      "columns": [
+        "board",
+        "revision",
+        "received",
+        "probability",
+        "known",
+        "positive"
+      ]
+    },
+    "scores": {
+      "key": [
+        "board",
+        "engine",
+        "label"
+      ],
+      "columns": [
+        "board",
+        "engine",
+        "label",
+        "value"
+      ]
+    },
+    "loss": {
+      "key": [
+        "skill"
+      ],
+      "columns": [
+        "skill",
+        "miss_points",
+        "late_points",
+        "manual_minutes"
+      ]
+    }
+  },
+  "links": [
+    [
+      "scores",
+      "board",
+      "boards",
+      "id"
+    ],
+    [
+      "audits",
+      "board",
+      "boards",
+      "id"
+    ],
+    [
+      "stations",
+      "job",
+      "boards",
+      "id"
+    ]
+  ]
+}

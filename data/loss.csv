@@ -1,0 +1,6 @@
+skill,miss_points,late_points,manual_minutes
+S,2,3,15
+E,6,7,20
+M,4,5,22
+"S,E",10,12,20
+"E,M",12,13,24

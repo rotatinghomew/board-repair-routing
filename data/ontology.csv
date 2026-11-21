@@ -1,0 +1,11 @@
+engine,label,condition,skill,ambig
+old,surface,all,S,0
+old,short,board,E,0
+old,unclear,all,S,1
+old,unclear,all,E,1
+new,scratch,all,S,0
+new,conduct,board,E,0
+new,conduct,hybrid,E,1
+new,conduct,hybrid,M,1
+new,both,all,S,0
+new,both,all,E,0

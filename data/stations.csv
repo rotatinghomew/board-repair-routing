@@ -1,0 +1,9 @@
+shift,worker,skill,start,end,job
+X,W1,S,0,70,
+X,W2,"E,M",0,70,
+Y,W1,"S,E",0,64,
+Y,W2,E,0,20,B06
+Y,W2,E,20,70,
+Y,W3,M,25,65,
+Z,W1,S,0,60,
+Z,W2,"E,M",0,55,

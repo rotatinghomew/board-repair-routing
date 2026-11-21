@@ -1,0 +1,11 @@
+id,shift,arrived,due,condition,period,repair_minutes,initial_flag
+B01,X,5,50,board,train,18,surface
+B02,X,10,45,hybrid,train,20,unclear
+B03,X,14,65,board,train,20,short
+B04,Y,2,48,board,holdout,20,surface
+B05,Y,3,45,hybrid,holdout,25,unclear
+B06,Y,7,52,board,holdout,15,short
+B07,Y,15,32,hybrid,holdout,10,surface
+B08,Y,15,62,board,holdout,25,short
+B09,Z,7,52,hybrid,holdout,25,short
+B10,Z,20,65,board,holdout,24,surface
